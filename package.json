@@ -1,17 +1,15 @@
 {
-  "homepage": "https://(github ayush726).github.io/(project_22053413)",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ayush726.github.io/project_22053413",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "deploy": "bun run build && bunx gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
